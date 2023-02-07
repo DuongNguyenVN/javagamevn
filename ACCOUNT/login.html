@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="java icon" type="x-icon" href="IMAGE/icon.png">
+	<title>JavaGameVN - Login</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="login.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="label">Đăng Nhập</h1>
+		<form class="login_form" action="../index.html" method="post" name="form" onsubmit="return validated()">
+			<div class="font">Email</div>
+			<input autocomplete="off" type="text" name="email">
+			<div id="email_error">Vui lòng điền vào Email của bạn</div>
+			<div class="font font2">Mật Khẩu</div>
+			<input type="password" name="password">
+			<div id="pass_error">Vui lòng điền mật khẩu của bạn</div>
+			<button type="submit">Đăng Nhập</button>
+		</form>
+	</div>	
+	<script src="valid.js"></script>
+</body>
+</html>
